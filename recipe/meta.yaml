@@ -26,6 +26,9 @@ requirements:
     - openpyxl
     - beautifulsoup4
     - lxml
+    - pyexcel
+    - pyexcel-xls
+    - pyexcel-xlsx
     - ukcensusapi
 
 test:
@@ -33,6 +36,7 @@ test:
     - ukpopulation.myedata
     - ukpopulation.snppdata
     - ukpopulation.nppdata
+    - ukpopulation.snhpdata
 
 about:
   home: https://github.com/nismod/ukpopulation
