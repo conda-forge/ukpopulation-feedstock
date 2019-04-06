@@ -18,9 +18,9 @@ requirements:
   host:
     - python
     - pip
-    - setuptools
   run:
     - python
+    - setuptools
     - numpy
     - pandas
     - requests
