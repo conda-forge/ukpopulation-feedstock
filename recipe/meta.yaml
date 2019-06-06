@@ -1,5 +1,5 @@
 {% set name = "ukpopulation" %}
-{% set version = "1.1.3" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0091a937815de2b8179ce74219dcf2aa965ca19a0ac9f8ead35e9f5d668fbc2c
+  sha256: 066d31889a40457edbdc79f4424005193a517c31b61160fb3ed9b110fd725d79
 
 build:
   noarch: python
